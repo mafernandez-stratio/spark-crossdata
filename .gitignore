@@ -1,0 +1,8 @@
+/dependency-reduced-pom.xml
+/derby.log
+/target
+/.idea
+/sampledb
+/project/project/target
+/project/target
+/spark-crossdata.iml
