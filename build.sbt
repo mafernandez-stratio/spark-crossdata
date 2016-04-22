@@ -12,7 +12,7 @@ libraryDependencies ++= Seq (
   "com.stratio.crossdata.connector" % "crossdata-elasticsearch" % "1.2.1"
 )
 
-spName := "stratio/spark-crossdata"
+spName := "Stratio/spark-crossdata"
 
 sparkVersion := "1.5.2"
 
