@@ -10,6 +10,20 @@
     <packaging>jar</packaging>
     <description>Spark package with Crossdata</description>
     <url>http://stratio.github.io/crossdata/</url>
+    <inceptionYear>2016</inceptionYear>
+
+    <developers>
+        <developer>
+            <id>miguel0afd</id>
+            <name>Miguel Angel Fernandez</name>
+            <email>mafernandez at stratio dot com</email>
+        </developer>
+        <developer>
+            <id>jjlopez</id>
+            <name>Juanjo Lopez</name>
+            <email>jjlopez at stratio dot com</email>
+        </developer>
+    </developers>
 
     <dependencies>
         <dependency>
