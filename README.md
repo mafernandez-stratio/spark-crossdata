@@ -1,3 +1,14 @@
+CROSSDATA
+=========
+
+This repository converts some modules of Crossdata project in a package ready to be deployed as a Spark package.
+
+For more information, visit:
+
+** https://github.com/Stratio/Crossdata/tree/1.2.1
+
+** https://stratio.atlassian.net/wiki/display/CROSSDATA1x2/Home
+
 CROSSDATA AS A SPARK PACKAGE
 =============================
 If you want to use crossdata as a Spark Package into your Spark distribution, just follow these steps:
