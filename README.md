@@ -7,7 +7,7 @@ This repository converts some modules of Crossdata project in a package ready to
 
 For more information, visit:
 
-- https://github.com/Stratio/Crossdata/tree/1.2.1
+- https://github.com/Stratio/Crossdata/tree/1.2.2
 
 - https://stratio.atlassian.net/wiki/display/CROSSDATA1x2/Home
 
@@ -18,11 +18,11 @@ If you want to use crossdata as a Spark Package into your Spark distribution, ju
     > mvn clean install -DskipITs -DskipUTs
     > mvn package -Ppackage -DskipITs -DskipUTs
 
-Once the package phase is done, you can find the spark-crossdata-1.2.1.jar at the spark-crossdata/target directory.
+Once the package phase is done, you can find the spark-crossdata-1.2.2.jar at the spark-crossdata/target directory.
 
 Now, you can start your spark-shell as:
 
-    SPARK-HOME> bin/spark-shell --jars $CROSSDATA-HOME/spark-crossdata/target/spark-crossdata-1.2.1.jar
+    SPARK-HOME> bin/spark-shell --jars $CROSSDATA-HOME/spark-crossdata/target/spark-crossdata-1.2.2.jar
     
 
 Inside the spark shell, you can import our crossdata datasources:

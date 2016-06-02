@@ -6,7 +6,7 @@
 
     <groupId>com.stratio.crossdata</groupId>
     <artifactId>spark-crossdata</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <packaging>jar</packaging>
     <description>Spark package with Crossdata</description>
     <url>http://stratio.github.io/crossdata/</url>
