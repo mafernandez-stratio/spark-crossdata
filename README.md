@@ -18,11 +18,11 @@ If you want to use crossdata as a Spark Package into your Spark distribution, ju
     > mvn clean install -DskipITs -DskipUTs
     > mvn package -Ppackage -DskipITs -DskipUTs
 
-Once the package phase is done, you can find the spark-crossdata-1.3.0.jar at the spark-crossdata/target directory.
+Once the package phase is done, you can find the spark-crossdata-${crossdata.version}.jar at the spark-crossdata/target directory.
 
 Now, you can start your spark-shell as:
 
-    SPARK-HOME> bin/spark-shell --jars $CROSSDATA-HOME/spark-crossdata/target/spark-crossdata-1.3.0.jar
+    SPARK-HOME> bin/spark-shell --jars $CROSSDATA-HOME/spark-crossdata/target/spark-crossdata-${crossdata.version}.jar
     
 
 Inside the spark shell, you can import our crossdata datasources:
